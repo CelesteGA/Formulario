@@ -1,0 +1,44 @@
+body{
+  background-color:#fff8ec;
+  min-height: 100vh;
+}
+
+p{
+  text-align:left center;
+}
+
+fieldset{
+  width: 80%;
+}
+
+.icono{
+  border-radius: 0.3rem;
+  border: 1px;
+}
+
+.icono::placeholder{
+  background-image: url("../Img/buscar.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.email::placeholder{
+  background-color:#fbe7b4;
+}
+
+.intro{
+  background-image: url("../Img/emote.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sexo{
+  text-align: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
